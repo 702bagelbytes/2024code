@@ -26,7 +26,7 @@ public class Swerve extends SubsystemBase {
     public Swerve() {
         gyro = new AHRS();
         gyro.reset();
-        gyro.calibrate();
+        // gyro.resetDisplacement(); .calibrate();
         zeroGyro();
        
        
